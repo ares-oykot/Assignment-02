@@ -1,4 +1,125 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.gamer-title-color {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+nav {
+    border: 1px solid red;
+    width: 1920px;  
+    /* height: 130px; */
+    flex-shrink: 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav-logo-container {
+    border: 1px solid rgb(38, 255, 0);
+    width: 50%;
+    display: flex;
+    object-fit: cover;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 240px;
+}
+
+.nav-logo {
+    width: 86px;
+    height: 40px;
+}
+
+.nav-gamer-title {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-menus-container {
+    border: 1px solid rgb(0, 38, 255);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-info-font {
+    color: #3C354F;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    color: #3C354F;
+}
+nav ul li a:hover {
+    color: #4400ff;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.nav-social-icon {
+    width: 272px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-social-icon:hover{
+    background: rgba(170, 141, 255, 0.673);
+}
+.nav-social-icon a{
+    text-decoration: none;
+}
+.nav-btn-icon {
+    width: 33.916px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
