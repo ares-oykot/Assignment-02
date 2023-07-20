@@ -15,6 +15,7 @@
 
 body{
     max-width: 1360px;
+    margin: 0 auto;
 }
 
 /* navbar section starts here */
@@ -99,6 +100,8 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+    transition: 0.10s;
 }
 
 .nav-social-icon:hover {
@@ -185,10 +188,18 @@ nav ul li a:hover {
     gap: 10px;
     border-radius: 48px;
     border: none;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-color: #d042d0;
 }
 .banner-button-1:hover{
-    color: #26ff00;
+    color: #1500ff;
+    background-color: #0dff007a;
+    border: none;
+    font-size: 13px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    transition: 0.08s;   
 }
 
 .banner-button-2 {
@@ -202,6 +213,15 @@ nav ul li a:hover {
 }
 .banner-button-2:hover{
     color: #26ff00;
+    color: #1500ff;
+    background-color: #0dff007a;
+    border: none;
+    font-size: 13px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    transition: 0.08s;
 }
 
 .banner-section-right {
@@ -271,14 +291,23 @@ nav ul li a:hover {
 .we-are-gamer-button {
     border: none;
     border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-family: 'Work Sans', sans-serif;
+    background-color: #d042d0;
     display: inline-flex;
     padding: 15px 30px;
     align-items: flex-start;
     gap: 10px;
 }
 .we-are-gamer-button:hover{
-    color: #26ff00;
+    color: #1500ff;
+    background-color: #0dff007a;
+    border: none;
+    font-size: 13px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    transition: 0.08s;
 }
 
 .we-are-gamer-font {
@@ -529,7 +558,15 @@ nav ul li a:hover {
     background: #4EC5F7
 }
 .career-btn:hover{
-    color: #26ff00;
+    font-family: 'Work Sans', sans-serif;
+    color: #1500ff;
+    background-color: #0dff007a;
+    border: none;
+    font-size: 13px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+    transition: 0.08s;
 }
 
 .btn-div {
@@ -607,6 +644,9 @@ nav ul li a:hover {
     justify-content: center;
     margin-left: 0;
 }
+.footer-anchor{
+    text-decoration: none;
+}
 
 .footer-icon-size {
     height: 50px;
@@ -642,5 +682,8 @@ nav ul li a:hover {
     font-weight: 600;
     line-height: normal;
     padding: 20px;
+}
+.Terms{
+    text-decoration: none;
 }
 /* footer section starts here */
