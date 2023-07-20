@@ -213,7 +213,7 @@
     .careers-img-group {
         width: 90%;
         height: 90%;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     
     .career-li {
@@ -224,6 +224,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 30px;
+        text-align: center;
     }
     
     .career-title {
@@ -250,10 +251,10 @@
 
     }
     .multimedia-1{
-        text-align: left;
+        text-align: center;
     }
     .multimedia-2{
-        text-align: right;
+        text-align: center;
     }
     .career-btn{
         display: inline-flex;
@@ -273,28 +274,47 @@
 
 
     /* game icon section starts here */
-    .game-icon-section {
-        background-color: #f0ebeb;
-        height: 400px;
-        margin-top: 400px;
-        padding: 40px 0px 0px 0px;
-    }
-    .game-icon {
+    .game-icon-section{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 0.5fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 400px 20px 100px 30px;
     }
     
-    .logo-icon {
-        align-items: center;
+    .game-icon {
         display: flex;
-        justify-content: center;
-        width: 200px;
-        height: 70px;
-        flex-shrink: 0;
-        border: 1px solid rgba(152, 163, 152, 0.168);
-        border-radius: 50px;
-        background: #FFF;
+        align-items: center;
+        gap: 10px;
+        border-radius:  50px;
+        padding: 8px;
+        transition: 0.2s;
+        border: 2px solid transparent;
+    }
     
+    .game-icon:hover {
+        border: 2px solid #ff0084;
+        transition: border 0.4s;
+    }
+    
+    .game-icon:hover h5{
+        color: #ff0084;
+        transition: 0.4s;
+    }
+    
+    .game-icon img {
+        width: 50px;
+    }
+    
+    .game-icon h5 {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.4s;
+    }
+    .icon-hide{
+        display: none;
     }
 /* game icon section ends here */
 
@@ -666,35 +686,48 @@
 
 
 /* game icon section starts here */
-    .game-icon-section {
-        background-color: #f0ebeb;
-        height: 400px;
-        margin-top: 400px;
-        padding: 40px 0px 0px 0px;
-    }
-    
-    .game-icon {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: 40px ;
-        margin-top: 100px;
-    }
-    
-    .logo-icon {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        width: 200px;
-        height: 70px;
-        flex-shrink: 0;
-        border: 1px solid rgba(152, 163, 152, 0.168);
-        border-radius: 50px;
-        background: #FFF;
-    
-    }
-    .hide{
-        display: none;
-    }
+.game-icon-section{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 500px 20px 100px 90px;
+}
+
+.game-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius:  50px;
+    padding: 8px;
+    transition: 0.2s;
+    border: 2px solid transparent;
+}
+
+.game-icon:hover {
+    border: 2px solid #ff0084;
+    transition: border 0.4s;
+}
+
+.game-icon:hover h5{
+    color: #ff0084;
+    transition: 0.4s;
+}
+
+.game-icon img {
+    width: 50px;
+}
+
+.game-icon h5 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.icon-hide{
+    display: none;
+}
     /* game icon section ends here */
 
 
