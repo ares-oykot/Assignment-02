@@ -189,6 +189,7 @@ nav ul li a:hover {
     border-radius: 48px;
     border: none;
     background-color: #d042d0;
+    cursor: pointer;
 }
 .banner-button-1:hover{
     color: #1500ff;
@@ -210,6 +211,7 @@ nav ul li a:hover {
     border-radius: 48px;
     border: none;
     background: #4EC5F7;
+    cursor: pointer;
 }
 .banner-button-2:hover{
     color: #26ff00;
@@ -297,6 +299,7 @@ nav ul li a:hover {
     padding: 15px 30px;
     align-items: flex-start;
     gap: 10px;
+    cursor: pointer;
 }
 .we-are-gamer-button:hover{
     color: #1500ff;
@@ -555,7 +558,8 @@ nav ul li a:hover {
     gap: 10px;
     border-radius: 48px;
     border: none;
-    background: #4EC5F7
+    background: #4EC5F7;
+    cursor: pointer;
 }
 .career-btn:hover{
     font-family: 'Work Sans', sans-serif;
